@@ -1,0 +1,19 @@
+{
+  "name": "postgresql",
+  "version": "1.0.0",
+  "description": "this is a test only",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js ",
+    "dev": "nodemon index.js"
+  },
+  "author": "prabin shretsha",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "express-handlebars": "^8.0.1",
+    "pg": "^8.13.1",
+    "sequelize": "^6.37.5"
+  }
+}
